@@ -1,0 +1,100 @@
+x<-10.72
+class(x)
+x<-10L
+class(x)
+x<-10.72
+class(x)
+X<-FALSE
+class(x)
+
+
+
+min(1,2,8,72)
+max(1,2,9,78)
+sqrt(16)
+abs(-7)
+ceiling(10.40)
+floor(10.40)
+
+
+str<-"my name is ABC,My sec is 40,My mobile no is 12349"
+print(str)
+cat(str)
+nchar(str)
+grepl("name",str)
+grepl("xyz",str)
+grepl("12345",str)
+text<-"ABC \t"
+text2<-"xyz \n"
+paste(text1,text2)
+list1<-(TRUE,0.1)
+list2<-(10,5+71)
+a<-2
+b<-3
+a>b
+plot(1:10)
+
+
+
+mat<-matrix(c(1:6),nrow =2,ncol =3,byrow =TRUE)
+print(mat)
+print(t(mat))
+prod=mat%*%t(mat)
+print(prod)
+
+
+std_sec<-c('4A','4B','4H','4W','4Y')
+factor_sec<-factor(std_sec)
+print(factor_sec)
+print(nlevels(factor_sec))
+length(std_sec)
+std_sec[3]
+std_sec[3]<-'40'
+std_sec[3]
+std_sec
+
+
+std_sec <- data.frame(sno = c(1, 2, 3, 4),
+name = c("ABC", "BCD", "CDF", "DEF"),
+sec = c("4A", "4c", "4B", "4o"),
+sub = c("R", "JWT", "R", "J"),
+fee_due = c(TRUE, TRUE, FALSE, TRUE))
+print(std_sec)
+new_std_row<-rbind(std_sec,c(5,"EFG","4E","JWT",FALSE))
+new_std_row<-cbind(std_sec,mob_no=c(123,234,456,567))
+new_std_dep<-std_sec[c(4)]
+
+
+
+
+
+name =readline(prompt="enter the name ")
+age=readline(prompt="enter your age ")
+print(paste("my name is ",name,"i am ",age,"year old"))
+
+
+
+
+
+
+
+
+
+x<-10+9i
+if(is.complex(x))
+{
+  print("x is complex ")
+
+}
+
+
+
+a <- 44
+b <- 38
+if (a > b) {
+  print("a is greater than b")
+} else if (a == b) {
+  print("a is equal to b")
+} else {
+  print("b is greater")
+}
