@@ -1,0 +1,39 @@
+
+
+# Create variables of different data types
+x <- 3.14 # numeric
+y <- 42L # integer
+z <- TRUE # logical
+w <- "hello world" # character
+
+#Datatype checking
+a=typeof(x)
+# Display the values and data types of the variables
+cat("x:", x, "Type:", a, "\n")
+cat("y:", y, "Type:", typeof(y), "\n")
+cat("z:", z, "Type:", typeof(z), "\n")
+cat("w:", w, "Type:", typeof(w), "\n")
+#Datatype checking
+x <- 3.14 # numeric
+print(“numeric type checking”)
+class(x)
+y <- 42L # integer
+class(y)
+z <- TRUE # logical
+class(z)
+w <- "hello world" # character
+class(w)
+z<-3+4i #complex
+class(z)
+ 
+# R program that takes input from the user and displays it:
+{
+name <- readline(prompt = "Enter your name: ")
+age <- readline(prompt = "Enter your age: ")
+age<-as.integer(age)
+# Display the values entered by the user
+cat("Your name is.\n ", name)
+cat(“you are", age, "years old ")
+}
+
+
