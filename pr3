@@ -1,0 +1,17 @@
+# Create a numeric vector of length 10
+numeric_vector <- c(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+# Create a complex vector of length 10
+complex_vector <- c(1 + 2i, 2 + 3i, 3 + 4i, 4 + 5i, 5 + 6i, 6 + 7i, 7 + 8i, 8 + 9i, 9 + 10i, 10 +
+11i)
+# Create a logical vector of length 10
+logical_vector <- c(TRUE, FALSE, TRUE, FALSE, TRUE, FALSE, TRUE, FALSE, TRUE,
+FALSE)
+# Create a character vector of length 10
+character_vector <- c("apple", "banana", "cherry", "date", "elderberry", "fig", "grape",
+"honeydew", "indian gooseberry", "jackfruit")
+
+# Print the vectors to see the output
+print(numeric_vector)
+print(complex_vector)
+print(logical_vector)
+print(character_vector)
