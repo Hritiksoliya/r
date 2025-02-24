@@ -1,0 +1,6 @@
+shop <- list(
+ Fruits = c("orange", "mango", "apple", "watermelon", "banana"),
+ Juices = c("appy", "fruty", "slice"),
+ Milkshakes = c("Mango", "papaya", "sapota", "pineapple")
+)
+print(shop)
