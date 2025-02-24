@@ -1,0 +1,23 @@
+
+x <- 5
+# Convert integer to character
+y <- as.character(x)
+cat("The integer value of x is converted to character as", y, "\n")
+# Convert character to numeric
+z <- as.numeric(y)
+cat("The character value of y is converted to numeric as", z, "\n")
+# Convert numeric to logical
+w <- as.logical(z)
+cat("The numeric value of z is converted to logical as", w, "\n")
+
+
+
+
+
+
+
+
+
+
+
+
