@@ -1,0 +1,48 @@
+# Create a vector of numbers
+numbers <- c(10, 20, 30, 40, 50)
+# Calculate the mean of the vector
+mean(numbers)
+# Output: [1] 30
+
+
+# Create a vector of numbers
+numbers <- c(10, 20, 30, 40, 50)
+# Find the maximum value in the vector
+max(numbers)
+# Output: [1] 50
+
+
+# Create a vector of numbers
+numbers <- c(10, 20, 30, 40, 50)
+# Calculate the median of the vector
+median(numbers)
+# Output: [1] 30
+
+
+# Create a vector of numbers
+numbers <- c(10, 20, 30, 40, 50)
+# Calculate the cumulative sum of the vector
+cumsum(numbers)
+# Output: [1] 10 30 60 100 150
+
+
+# Create a vector of numbers
+numbers <- c(10, 20, 30, 40, 50)
+# Calculate the cumulative maximum of the vector
+cummax(numbers)
+# Output: [1] 10 20 30 40 50
+
+
+
+# Create a vector of numbers
+numbers <- c(10, 20, 30, 40, 50)
+
+cummin(numbers)
+# Output: [1] 10 10 10 10 10
+
+
+# Create a vector of numbers
+numbers <- c(10, 20, 30, 40, 50)
+# Calculate the cumulative product of the vector
+cumprod(numbers)
+# Output: [1] 10 200 6000 240000 12000000
